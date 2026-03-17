@@ -7,6 +7,7 @@ def is_nmap_installed():
 def check_nmap():
     if is_nmap_installed():
         print("Nmap is installed on your system and ready to use.")
+        return True
     else:
         print("Nmap is not installed on your system.")
         
